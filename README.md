@@ -46,4 +46,9 @@ Follow these steps to download, prepare, and execute the script:
     ```
     sudo ./secure-server-setup.sh
     ```
-Follow the on-screen prompts, if any, to complete the setup process.
+5. **Remove the Script (Optional):**
+   If you wish to remove the script after its execution, you can delete it using the following command:
+    ```bash
+    rm secure-server-setup.sh
+    ```
+This step ensures that the script is not left on the system after it has completed its task, maintaining a tidy environment.
