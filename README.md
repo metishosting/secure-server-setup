@@ -1,3 +1,10 @@
+## Caution
+**Caution**: This script has the potential to make significant changes to your server's configuration, which may lead to unexpected results or issues if not used correctly.
+
+Before proceeding, please ensure that you have a backup of your server and that you understand the actions performed by this script. If you are not familiar with the tasks involved or are uncertain about any step, it is strongly recommended to seek guidance from a qualified system administrator or IT professional.
+
+**The authors and maintainers of this script assume no liability for any damage or issues that may arise from its use. Use this script at your own risk**
+
 # Secure Server Setup Script
 
 **Filename**: `secure-server-setup.sh`
