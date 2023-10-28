@@ -20,3 +20,30 @@
 
 ## Usage
 This script is invaluable for server administrators looking to enforce a standardized initial security posture across new server deployments efficiently.
+
+## How to Use
+Follow these steps to download, prepare, and execute the script:
+
+1. **Download the Script:**
+    ```
+    wget https://raw.githubusercontent.com/metishosting/secure-server-setup/main/secure-server-setup.sh
+    ```
+
+2. **Edit the Script Variables:**
+   Open the script in a text editor (here, we're using nano, but you can use any editor you prefer):
+    ```
+    sudo nano secure-server-setup.sh
+    ```
+   Inside the editor, modify the variables at the beginning of the script (e.g., `NEW_USER`, `USER_PASSWORD`, `SSH_NEW_PORT`, `PUBLIC_SSH_KEY`, etc.) to match your preferred settings.
+
+3. **Make the Script Executable:**
+    ```
+    sudo chmod +x secure-server-setup.sh
+    ```
+
+4. **Run the Script:**
+   Execute the script with administrative privileges:
+    ```
+    sudo ./secure-server-setup.sh
+    ```
+Follow the on-screen prompts, if any, to complete the setup process.
