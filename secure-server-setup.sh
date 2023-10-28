@@ -30,10 +30,10 @@ echo "Installing Fail2Ban for security."
 # Install Fail2Ban for security
 sudo apt install fail2ban -y
 
-echo "Removing any existing '${NEW_USER}' user."
+# echo "Removing any existing '${NEW_USER}' user."
 # Delete user if it already existed
-deluser ${NEW_USER} || true  # The script will continue if the user does not exist
-rm -dr /home/${NEW_USER} || true  # Same as above
+# deluser ${NEW_USER} || true  # The script will continue if the user does not exist
+# rm -dr /home/${NEW_USER} || true  # Same as above
 
 echo "Creating new user account."
 # Create a new user without a default password and add it to the sudo group
